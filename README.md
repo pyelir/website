@@ -1,4 +1,4 @@
-### README 
+# About
 
 Personal website to summarize projects + learn more about HTML, CSS, 
 and JavaScript.
