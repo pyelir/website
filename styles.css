@@ -86,6 +86,12 @@ svg {
   /* border: 1px solid #fff; */
 }
 
+tabbed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .tabs {
   display: flex;
   flex-direction: column;
@@ -108,7 +114,7 @@ svg {
 
 .tabbutton {
   background-color: inherit;
-  color: #5D737E; /* Cadet */
+  color: #5D737E; /* Cadet*/
   font-family: Helvetica, sans-serif;
   font-size: 20px;
   float: left;
@@ -119,16 +125,11 @@ svg {
   transition: 0.3s;
 }
 
-.activebutton {
-  color: #3993DD;
-}
-
-
 
 .tab {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-bottom: auto;
+  width: 600px;
   margin-top: 50px;
+  font-family: Garamond;
+  color: #292E1E; /* Pine green*/
 }
