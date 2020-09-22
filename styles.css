@@ -8,7 +8,7 @@
 html,
 body {
   height: 100vh;
-  background-color: #E3E2DF;
+  background-color: #E3E2DF; /* Platinum */
 }
 
 .navbar {
@@ -17,24 +17,21 @@ body {
   justify-content: space-between;
   width: 100vw;
   height: 70px;
-  padding: 30px 20px 0px 20px;
-  border: 1px solid #fff; /* debugging */
+  padding: 20px 20px 0px 20px;
+  border-bottom: 1px solid #5D737E; /* cadet */
+  /* border: 1px solid #fff; */ /* debugging */
 }
 
 .navbar-link a {
-  color: #9A1750;
+  color: #9A1750; /* Jazzberry Jam */
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   text-decoration: none;
 }
 
-.navbar-link a:active {
-  color: #E3AFBC;
-}
-
 .greeting,
 .subgreeting {
-  color: #5D001E;
+  color: #5D001E; /* Claret */
   font-family: Helvetica, sans-serif;
 }
 
@@ -52,13 +49,12 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #E3E2DF;
-  border: 1px solid #fff; /* debugging */
+  /* border: 1px solid #fff; */ /* debugging */
   height: calc(100vh - 70px);
 }
 
 .extlinks {
-  margin-top: auto;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -75,7 +71,7 @@ body {
 
 
 .navlinks {
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   display: flex;
   flex-direction: row;
 }
@@ -87,7 +83,7 @@ body {
 
 svg {
   fill: #9A1750;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
 }
 
 .tabs {
@@ -98,18 +94,23 @@ svg {
   background-color: #E3E2DF;
   height: calc(100vh - 70px);
   width: 100vw;
-  border: 1px solid #fff; /* debugging */
+  /* border: 1px solid #fff; */ /* debugging */
 }
 
 .tabbar {
   overflow: hidden;
   width: 100vw;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid #ccc; */
+  background-color: #E3E2DF; /* Platinum */
 }
 
 .tabbutton {
   background-color: inherit;
+  color: #5D737E; /* Cadet */
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
   float: left;
   border: none;
   outline: none;
@@ -117,6 +118,12 @@ svg {
   padding: 14px 16px;
   transition: 0.3s;
 }
+
+.activebutton {
+  color: #3993DD;
+}
+
+
 
 .tab {
   display: flex;
