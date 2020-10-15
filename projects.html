@@ -31,11 +31,11 @@
               <a href="https://pyelir.github.io/rg-visualizer/index.html" target="_blank">
                 <img class="screenshot" src="images/rgvapp.png" width="600" alt="screenshot of app"/>
               </a>
-              <p> This applet is a consolidation and re-write of multiple projects from my coursework at Tufts.
-              It provides visual representations ofthe Erdos-Renyi <i>G(n,p)</i> model, of a random graph.
-              To do this, it first generates an internal representation of a <i>G(n,p)</i> random graph.
-              To determine how the graph is displayed, it then finds a minimum spanning tree (with edges weighted according to their
-              assigned probabilities) using Prim's algorithm, and then feeds that MST into the Kamada-Kawai force-directed graph-layout algorithm.
+              <p> This applet provides a visual representation of the Erdos-Renyi <i>G(n,p)</i> random graph model.
+              To do this, it first generates a representation of the graph as a set of nodes and edges, with each edge assigned
+              a probabilty uniformly at random.
+              To display this abstract object, it first finds a minimum spanning tree (with edges weighted according to their
+              assigned probabilities) using Prim's algorithm, and then feeds that MST into the Kamada-Kawai force-directed graph layout algorithm.
               This helps give a relatively clean and uncluttered view of the graph for low values of <i>p</i>.
             </p> <br />
               <p>
@@ -44,9 +44,9 @@
               (such as the emergence of a giant component) as the parameters shift, as well as a faster layout algorithm to improve performance.</p>
             </p> <br />
               <p>The original idea for this project is due to Prof. Lenore Cowen at Tufts, who also suggested computing the layout using an MST.
-                The idea was originally implemented with Michael Gold as a class project using a Jupyter notebook, which allowed us to use the NetworkX package to handle
-                graph representation and layout.  Prof. Greg Aloupis provided help and guidance for a later class project I did on force-directed graph layout algorithms, which helped greatly
-                in writing the code for this project. </p>
+                I worked with Michael Gold to implement it as a class project using a Jupyter notebook, which allowed us to use the NetworkX package to handle
+                graph representation and layout.  Prof. Greg Aloupis provided help and guidance for a separate, later class project I did on force-directed graph layout algorithms, which helped greatly
+                in writing the code for this applet. </p>
             </div>
             <div class="tab" data-tabid="2" data-tabname="Microedit">
               Editor project still under construction.
