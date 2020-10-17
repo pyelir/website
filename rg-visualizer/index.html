@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Random Graph Visualizer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="graphview" class="graphview">
+    <canvas id="drawsurface"></canvas>
+  </div>
+  <div class="bottompart">
+    <div class="slidecontainer">
+      <input type="range" min="0" max="1" value="0.0" class="slider" step="0.001" id="pval"/>
+    </div>
+    <div class="paramsview">
+      <div class="fixed">n=50,</div>
+      <div class="pview" id="pview"></div>
+      <div class="abt"><a href="https://r3y.me/projects.html">about</a></div>
+    </div>
+    <!-- No need for configuration for now.
+    <div id="configuration">
+      Adjust graph settings here!
+    </div>
+  -->
+  </div>
+  <script type="module" src="./js/rgv.js"></script>
+</body>
+</html>
